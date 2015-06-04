@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fake_white">#fffafafa</color>
+    <color name="gray_f3f3f3">#fff3f3f3</color>
+    <color name="gray_808080">#ff808080</color>
+    <color name="g_dark_grey">#ff404040</color>
+    <color name="g_green">#ff55bb22</color>
+    <color name="high_gray">#ff404040</color>
+    <color name="dark_gray1">#ff404040</color>
+    <color name="medium_gray">#ff808080</color>
+    <color name="activity_bg_gray">#fff2f2f2</color>
+    <color name="list_transparent">#50000000</color>
+    <color name="group_div_line_color">#ffd9d9d9</color>
+    <color name="low_gray">#ffbfbfbf</color>
+    <color name="divider_low_gray">#ffbfbfbf</color>
+    <color name="sub_gray">#ffe6e6e6</color>
+    <color name="super_sub_gray">#ffeae8e8</color>
+    <color name="house_green">#ff56ba21</color>
+    <color name="g_grey">#ff808080</color>
+    <color name="g_deep_green">#ff3e9317</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="card_fake_white">#fff0f0f0</color>
+    <color name="black_gray">#ff404040</color>
+    <color name="login_name_color">#ff3e690f</color>
+    <color name="personal_centre_item">#fff0f0f0</color>
+</resources>

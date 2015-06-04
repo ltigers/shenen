@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#ff0000</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="black">#000000</color>
+    
+    <color name="top_title_bar_normal_backgrond_color">#EB413D</color>
+    <color name="top_title_bar_button_press_background_color">#D83C38</color>
+
+</resources>

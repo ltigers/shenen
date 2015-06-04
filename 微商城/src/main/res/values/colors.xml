@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_low_gray">#ffbfbfbf</color>
+    <color name="house_green">#ff56ba21</color>
+    <color name="fake_white">#fffafafa</color>
+    <color name="g_green">#ff55bb22</color>
+    <color name="g_dark_grey">#ff404040</color>
+</resources>

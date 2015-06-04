@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/hello_world"
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/hello_world"
+                android:layout_width="wrap_content"
+                android:layout_height="100dip" />
+            <TextView
+                android:text="@string/hello_world"
+                android:layout_width="wrap_content"
+                android:layout_height="100dip" />
+            <TextView
+                android:text="@string/hello_world"
+                android:layout_width="wrap_content"
+                android:layout_height="100dip" />
+            <TextView
+                android:text="@string/hello_world"
+                android:layout_width="wrap_content"
+                android:layout_height="100dip" />
+            <!--<com.cntysoft.helloworld.ui.InnerWebView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/webview"></com.cntysoft.helloworld.ui.InnerWebView>-->
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/webview"></WebView>
+        </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

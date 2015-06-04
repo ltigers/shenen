@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.2.1" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/circlescrollviewdemo" />
+            <option value="$PROJECT_DIR$/designdemo" />
+            <option value="$PROJECT_DIR$/draggridview" />
+            <option value="$PROJECT_DIR$/ganji" />
+            <option value="$PROJECT_DIR$/photowallfalls" />
+            <option value="$PROJECT_DIR$/pulllayout" />
+            <option value="$PROJECT_DIR$/pulltorefresh" />
+            <option value="$PROJECT_DIR$/sdkshare" />
+            <option value="$PROJECT_DIR$/sharesdktest" />
+            <option value="$PROJECT_DIR$/slidedellistview" />
+            <option value="$PROJECT_DIR$/superlistview" />
+            <option value="$PROJECT_DIR$/testcookie" />
+            <option value="$PROJECT_DIR$/testmaterial" />
+            <option value="$PROJECT_DIR$/viewpagefragmenttabhost" />
+            <option value="$PROJECT_DIR$/wheelview" />
+            <option value="$PROJECT_DIR$/微商城" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

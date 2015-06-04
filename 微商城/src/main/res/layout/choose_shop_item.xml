@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/catalog_divider1"
+        android:background="@color/divider_low_gray"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_height="22dp"
+        android:layout_width="match_parent"
+        android:id="@+id/group_index"
+        android:background="#ffe6e6e6"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:textColor="@color/house_green"
+        android:text="@string/default_groupindex"
+        android:textSize="18sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/catalog_divider"
+        android:visibility="gone"
+        android:background="@color/divider_low_gray"
+        />
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="@string/default_shopname"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/name_divider"
+        android:background="@color/divider_low_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>

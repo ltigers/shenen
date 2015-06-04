@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="drawable_super_low_gray">#fff3f3f3</item>
+    <item type="drawable" name="divider_bg">#ffd8d8d8</item>
+</resources>

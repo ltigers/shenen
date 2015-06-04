@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">微商城</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="micromart_config">config</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="default_shopname">凤凰店铺</string>
+    <string name="default_groupindex">A</string>
+</resources>
