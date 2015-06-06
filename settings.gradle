@@ -1,1 +1,1 @@
-include ':app', ':sdkshare', ':superlistview', ':circlescrollviewdemo', ':ganji', ':wheelview', ':slidedellistview', ':testcookie', ':微商城', ':sharesdktest', ':viewpagefragmenttabhost', ':photowallfalls', ':draggridview', ':pulllayout', ':pulltorefresh', ':testmaterial', ':designdemo'
+include ':app', ':sdkshare', ':superlistview', ':circlescrollviewdemo', ':ganji', ':wheelview', ':slidedellistview', ':testcookie', ':微商城', ':sharesdktest', ':viewpagefragmenttabhost', ':photowallfalls', ':draggridview', ':pulllayout', ':pulltorefresh', ':testmaterial', ':designdemo', ':kelecms'

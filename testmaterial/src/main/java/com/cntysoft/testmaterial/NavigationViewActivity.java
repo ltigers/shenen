@@ -1,13 +1,13 @@
 package com.cntysoft.testmaterial;
 
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +22,7 @@ public class NavigationViewActivity extends AppCompatActivity{
     private NavigationView navigationView;
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private ActionBar actionBar;
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,11 +30,15 @@ public class NavigationViewActivity extends AppCompatActivity{
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         button = (Button) findViewById(R.id.button);
         navigationView = (NavigationView) findViewById(R.id.navigation);
-
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("新闻");
+        toolbar.setTitleTextColor(0xffffffff);
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationIcon(R.drawable.ic_menu);
         //取得ActionBar
-        actionBar = getSupportActionBar();
+        //actionBar = getSupportActionBar();
         //设置不显示标题
-        actionBar.setDisplayShowTitleEnabled(false);
+        /*actionBar.setDisplayShowTitleEnabled(false);
         //设置显示logo
         //actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayUseLogoEnabled(true);
@@ -41,7 +46,9 @@ public class NavigationViewActivity extends AppCompatActivity{
         //设置actionbar背景
         Drawable background = getResources().getDrawable(R.drawable.top_bar_background);
         actionBar.setBackgroundDrawable(background);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);*/
+        //actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
+       // actionBar.setDisplayHomeAsUpEnabled(true);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -57,16 +64,17 @@ public class NavigationViewActivity extends AppCompatActivity{
         //actionBar.setDefaultDisplayHomeAsUpEnabled(true);
 
        // 设置drawerlayout监听
-		drawerLayout.setDrawerListener(new NetEaseDrawerListener());
+		//drawerLayout.setDrawerListener(new NetEaseDrawerListener());
 				// toggle
-		this.actionBarDrawerToggle = new ActionBarDrawerToggle(this,this.drawerLayout, R.string.drawer_open, R.string.drawer_close);
+		this.actionBarDrawerToggle = new ActionBarDrawerToggle(this,this.drawerLayout,toolbar, R.string.drawer_open, R.string.drawer_close);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 drawerLayout.openDrawer(Gravity.LEFT);
             }
         });
-       // drawerLayout.setDrawerListener(actionBarDrawerToggle);
+        //actionBarDrawerToggle.syncState();
+      // drawerLayout.setDrawerListener(actionBarDrawerToggle);
 
     }
 
@@ -86,6 +94,7 @@ public class NavigationViewActivity extends AppCompatActivity{
                 }else{
                     drawerLayout.openDrawer(Gravity.LEFT);
                 }
+                actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
                 return true;
         }
         return super.onOptionsItemSelected(item);
@@ -95,7 +104,7 @@ public class NavigationViewActivity extends AppCompatActivity{
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         // Sync the toggle state after onRestoreInstanceState has occurred.
-        actionBarDrawerToggle.syncState();
+        //actionBarDrawerToggle.syncState();
     }
 
     private class NetEaseDrawerListener implements DrawerLayout.DrawerListener {

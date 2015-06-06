@@ -31,6 +31,7 @@ public class CheeseDetailActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(cheeseName);
+        collapsingToolbar.setCollapsedTitleTextColor(0xff000000);
 
         loadBackdrop();
     }
